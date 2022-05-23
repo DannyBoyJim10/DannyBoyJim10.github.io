@@ -1,0 +1,63 @@
+@media only screen and (max-width: 900px){
+    .seccion02 .contenido .box{
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        background-color: #ffffff;;
+        height: 405px;
+    }
+
+}
+
+@media only screen and (max-width: 805px){
+    header{
+        background-image: url(../img/fondo.jpg);
+        background-size: 100% ;
+        background-repeat: no-repeat;
+    }
+
+    nav ul{
+        /* position: fixed -> Error aquí es static */
+        position: static;
+        display: none;
+    }
+
+    nav ul li{
+        margin-bottom: 1px;
+        width: 100%;
+    }
+
+    nav .mostrar-menu{
+        display: block;
+    }
+
+    .carrito .item .izq {
+        display: none;
+    }
+
+    .seccion01 .contenido .card{
+        float: left;
+        width: 50%;
+        padding: 0px 20px;
+        margin-bottom: 10px;
+    }
+
+    .seccion02 .contenido .box{
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        background-color: #98ace4;
+
+    }
+
+    .seccion02 .contenido .box .izq{
+        width: 100%;
+        float: left;	
+    }
+
+    .seccion02 .contenido .box .der .card {
+        display: none;
+        height: 0cm;
+    }
+
+}
+
+
